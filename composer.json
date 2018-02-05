@@ -1,0 +1,35 @@
+{
+    "name": "roukmoute/time-zone-identifier",
+    "description": "List of time zones identifiers",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mathias STRASSER",
+            "email": "contact@roukmoute.fr"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload":     {
+        "psr-4": {
+            "Roukmoute\\TimeZoneIdentifier\\": "src/"
+        },
+        "exclude-from-classmap": [
+            "**/spec/"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    }
+}
